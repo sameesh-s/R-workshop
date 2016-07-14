@@ -1,0 +1,7 @@
+population=c(50,50,120)
+labels=c("lion","tiger","hen")
+myCol=c("yellow","red","green")
+png("1.png")
+barplot(population,col=myCol,main="Bar Diagram ")
+legend("topright",labels,fill=myCol)
+dev.off()
