@@ -1,0 +1,7 @@
+data=c(50,41,22,45,22,32)
+labels=c("lion","tiger","hen","wolf")
+myCol=c("yellow","red","green","blue")
+png("1.png")
+hist(data,col="red",main="Bar Diagram")
+legend("topright",labels,fill=myCol)
+dev.off()
