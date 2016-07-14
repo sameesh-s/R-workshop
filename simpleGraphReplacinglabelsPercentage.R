@@ -1,0 +1,8 @@
+p=c(50,50,120)
+labels=c("lion","tiger","hen")
+myCol=c("yellow","red","green")
+perc=p*100/sum(p)
+png("1")
+pie(p,perc,col=myCol,main="its working")
+legend("topright",labels,fill=myCol)
+dev.off()
