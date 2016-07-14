@@ -1,6 +1,6 @@
 #population=c(50,50,120)
 # diffrence form bar diagram is that matrix is provide in arrays position
-population=matrix(c(1:9),nrow=3)
+population=matrix(c(1:9),nrow=3,ncol=3)
 labels=c("lion","tiger","hen")
 myCol=c("yellow","red","green")
 png("1.png")
