@@ -1,0 +1,7 @@
+p=c(50,50,120)
+labels=c("lion","tiger","hen")
+myCol=c("yellow","red","green")
+png("1")
+pie(p,labels,col=myCol,main="its working")
+legend("topright",labels,fill=myCol)
+dev.off()
